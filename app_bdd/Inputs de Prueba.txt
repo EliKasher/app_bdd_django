@@ -1,0 +1,32 @@
+1) 
+inputs:
+Punch
+Soyou
+Whee Inn
+
+Stray Kids
+
+2) 
+inputs:
+HYBE
+Dreamcatcher Company (Happyface)
+JYP Entertainment Corp.
+
+3)
+inputs:
+HYBE female
+HYBE male
+JYP Entertainment Corp. male
+JYP Entertainment Corp. female
+
+4)
+inputs:
+Suga 400000
+BTS 100000000
+TXT 10000000
+
+5)
+
+TXT
+BTS
+Stray Kids

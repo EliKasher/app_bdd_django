@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{% static 'css/stylebdd.css' %}" type="text/css">
+    
+
+    <title>Consulta Género de Artistas de una Compañía</title>
+</head>
+<body>
+  <h1>Artistas Categoría: {{ request.POST.gender }} de la compañía {{ request.POST.company }}</h1>
+  <div id="consultas">
+    <div class="container ">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Compañía</th>
+            <th scope="col">Número de Artistas/Grupos de género {{request.POST.gender}}</th>
+          </tr>
+        </thead>
+        <tbody> 
+        {% for i in resultados %}
+          <tr>
+            <td>{{i.company}}</td>
+            <td>{{i.number}}</td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

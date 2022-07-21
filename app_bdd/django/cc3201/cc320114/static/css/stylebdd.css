@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(27, 122, 129);
+  font-family: "Trebuchet MS", sans-serif;
+  color:aliceblue;
+  padding: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+  
+td, th {
+  border: 1px solid #750d41;
+  text-align: center;
+  background-color: #a33c64;
+  padding: 10px 10px;
+}
+  
+h1 {
+  font-family: "Trebuchet MS", sans-serif;
+  color:aliceblue;
+  text-align: center;
+}
+  
+p {
+  font-family: "Garamond", serif;
+  color:aliceblue;
+  padding: 20px 40px;
+}
+
+.submit:hover {
+    background-color:#39c48a;
+  }
+  
+  
+.submit {
+    background-color: #a33c64;
+    color: white;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+legend {
+    color: #79173c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+  
+fieldset {  
+    border-style: solid;
+    border-color: #a33c636e;
+    border-radius: 4px;
+    background-color: #1669494f;
+    padding: 20px;
+}
