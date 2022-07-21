@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+    <link rel="stylesheet" href="{% static 'css/stylebdd.css' %}" type="text/css">
+
+    <title>Consulta Kpop</title>
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <h1>Haga su consulta</h1>
+    </div>
+
+    <div id="content">
+      <form action="consulta5.py" method="get">
+          <fieldset>
+              <legend> Ingresar consulta 5 </legend>
+              <!-- Text input-->
+              <div>
+                  <label>
+                    <textarea name="input5" id="input5" class="form-control" rows="25" cols="50" maxlength="500" required></textarea>
+                  </label>
+              </div>
+
+              <!-- Button -->
+              <div>
+                  <input class="submit" type="submit" value="Consultar">
+              </div>
+
+          </fieldset>
+      </form>
+  </div>
+</body>
+</html>
